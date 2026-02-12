@@ -8,10 +8,8 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 
-
-# -----------------------------
 # Configuration and Setup
-# -----------------------------
+
 
 OLLAMA_API_URL = "http://localhost:11434/api/generate"
 MODEL_NAME = "phi3"
@@ -19,9 +17,7 @@ MODEL_NAME = "phi3"
 # Supported file types
 SUPPORTED_FILE_TYPES = ["pdf", "docx", "txt"]
 
-# -----------------------------
 # Helper Functions
-# -----------------------------
 
 
 def extract_text_from_pdf(file):
